@@ -5,7 +5,7 @@ Example with Knool Witch using yolauncher servermodpack and lifx framework
 7-zip installed: https://www.7-zip.org/
 
 ## Build Server Modpack for YoLauncher
-To build a zip file that includes all the client side required files for yolauncher, simply run the included bat file (requires 7-zip as is)
+To build a zip file that includes all the client side required files for yolauncher, simply run the included [bat file](createModpack.bat) (requires 7-zip as is)
 Upload the genereated zip file to yolauncher and activate it as a modpack.
 
 ## Install on server.
