@@ -11,3 +11,10 @@ Upload the genereated zip file to yolauncher and activate it as a modpack.
 ## Install on server.
 
 Upload both the mods folder and the yolauncher to your server root directory, the mods reference the datablock from yolauncher folder to ensure it is the same as the one you made in the server modpack.
+
+
+### Credits
+Kurai Senpai
+Warped Ibun
+
+Made compatible with Yo Launcher and LiFx Client & Server framework by LiF-x
