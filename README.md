@@ -14,7 +14,7 @@ Upload both the mods folder and the yolauncher to your server root directory, th
 
 
 ### Credits
-Kurai Senpai
-Warped Ibun
+- Kurai Senpai
+- Warped Ibun
 
-Made compatible with Yo Launcher and LiFx Client & Server framework by LiF-x
+Made compatible with [Yo Launcher Servermodpack](https://yolauncher.app/documentation) and LiFx Client & Server framework by [LiF-x](https://www.lifxmod.com/)
