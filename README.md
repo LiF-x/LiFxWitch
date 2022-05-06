@@ -14,7 +14,7 @@ Upload both the [mods](mods) folder and the [yolauncher](yolauncher) to your ser
 
 
 ### Credits
-- Kurai Senpai
+- Kurai Seraph
 - Warped Ibun
 
 Made compatible with [Yo Launcher Servermodpack](https://yolauncher.app/documentation) and LiFx Client & Server framework by [LiF-x](https://www.lifxmod.com/)
