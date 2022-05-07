@@ -1,9 +1,28 @@
 # LiFxWitch
 Example with Knool Witch using yolauncher servermodpack and lifx framework
 
+## Prerequisite
+7-zip installed: https://www.7-zip.org/
+
+## Build Server Modpack for YoLauncher
+To build a zip file that includes all the client side required files for yolauncher, simply run the included [bat file](createModpack.bat) (requires 7-zip as is)
+Upload the genereated zip file to yolauncher and activate it as a modpack.
+
+## Install on server.
+
+Upload both the [mods](mods) folder and the [yolauncher](yolauncher) to your server root directory, the mods reference the datablock from yolauncher folder to ensure it is the same as the one you made in the server modpack.
+
+
+### Credits
+- Kurai Seraph
+- Warped Ibun
+
+Made compatible with [Yo Launcher Servermodpack](https://yolauncher.app/documentation) and LiFx Client & Server framework by [LiF-x](https://www.lifxmod.com/)
+
+
+
 ### Datablock ids
 id - Datablock name
-
 
 - 3 - DefaultPlayerData
 - 400 - PlayerMaleData
@@ -388,20 +407,3 @@ id - Datablock name
 
 
 - 1206 - MAX datablock id
-## Prerequisite
-7-zip installed: https://www.7-zip.org/
-
-## Build Server Modpack for YoLauncher
-To build a zip file that includes all the client side required files for yolauncher, simply run the included [bat file](createModpack.bat) (requires 7-zip as is)
-Upload the genereated zip file to yolauncher and activate it as a modpack.
-
-## Install on server.
-
-Upload both the [mods](mods) folder and the [yolauncher](yolauncher) to your server root directory, the mods reference the datablock from yolauncher folder to ensure it is the same as the one you made in the server modpack.
-
-
-### Credits
-- Kurai Seraph
-- Warped Ibun
-
-Made compatible with [Yo Launcher Servermodpack](https://yolauncher.app/documentation) and LiFx Client & Server framework by [LiF-x](https://www.lifxmod.com/)
