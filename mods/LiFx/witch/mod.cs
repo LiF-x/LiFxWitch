@@ -21,8 +21,10 @@ package LiFxWitchmod
         LiFx::registerCallback($LiFx::hooks::onPostInitCallbacks, Datablock, LiFxWitchmod);
         
         // Register new objects
+        LiFx::registerObjectsTypes(LiFxWitchmod::ObjectsTypesWitch(), LiFxWitchmod);
         LiFx::registerObjectsTypes(LiFxWitchmod::ObjectsTypesWitchCarcass(), LiFxWitchmod);
-
+        
+        LiFx::registerObjectsTypes(LiFxWitchmod::ObjectsTypesWurm(), LiFxWitchmod);
     }
     function LiFxWitchmod::version() {
         return "0.0.1";
@@ -30,7 +32,42 @@ package LiFxWitchmod
     function LifxWitchmod::Datablock() {
         exec ("yolauncher/modpack/art/datablocks/animals/witch.cs");
     }
+    
 
+
+
+    function LifxWitchmod::ObjectsTypesWitch() {
+        return new ScriptObject(ObjectsTypesWitch : ObjectsTypes)
+        {
+            id = 2008; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
+            ObjectName = "Witch";
+            ParentID = 751;
+            IsContainer = 0;
+            IsMovableObject = 1;
+            IsUnmovableobject = 0;
+            IsTool = 0;
+            IsDevice = 0;
+            IsDoor = 0;
+            IsPremium = 0;
+            MaxContSize = 0;
+            Length = 0; 
+            MaxStackSize = 0;
+            UnitWeight = 1;
+            BackgrndImage = "";
+            WorkAreaTop = 0;
+            WorkAreaLeft = 0;
+            WorkAreaWidth = 0;
+            WorkAreaHeight = 0;
+            BtnCloseTop = 0;
+            BtnCloseLeft = 0;
+            FaceImage = "";
+            Description = "";
+            BasePrice = 0;
+            OwnerTimeout = "NULL";
+            AllowExportFromRed = 0;
+            AllowExportFromGreen = 0;
+        };
+    }
 
     function LifxWitchmod::ObjectsTypesWitchCarcass() {
         return new ScriptObject(ObjectsTypesWitchCarcass : ObjectsTypes)
