@@ -8,7 +8,7 @@
 */
 datablock AnimalData(WitchData : DefaultPlayerData)
 {
-    id = 752; // has to be globally unique see the readme file for overview of ids
+    id = 780; // has to be globally unique see the readme file for overview of ids
     animalTypeId = 751; // reference objects_types id, 751 = Wild Animal
     footprintTexture = "art/Textures/AnimalFootprints/Wolf_fs.png";
     footprintTextureLinearSize = 0.4;
