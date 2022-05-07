@@ -212,7 +212,7 @@ id - Datablock name
 - 714 - NPC_slave_E
 - 715 - NPC_slave_Overseer
 - 780 - LiFx Knool Witch
-- 781 - LiFx Knool Digger
+- 781 - LiFx Knool Mole
 - 782 - LiFx Knool Hunter
 - 783 - LiFx Knool Bear
 - 784 - LiFx Knool Chieftain
