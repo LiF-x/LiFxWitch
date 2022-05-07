@@ -407,3 +407,7 @@ id - Datablock name
 
 
 1026 - MAX datablock id
+
+
+# Disclaimer
+LiF-x / LiFx the team or credited members are not affiliated with BitBox.
