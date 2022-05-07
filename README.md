@@ -23,6 +23,7 @@ Made compatible with [Yo Launcher Servermodpack](https://yolauncher.app/document
 
 ### Datablock ids
 id - Datablock name
+If you see an error in your logs with "SimDataBlock::protectedSetId() - illegal datablock ID" it means you have selected an existing ID or you are out of bounds for ID range.
 
 - 3 - DefaultPlayerData
 - 400 - PlayerMaleData
