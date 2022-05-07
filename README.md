@@ -14,8 +14,8 @@ Upload both the [mods](mods) folder and the [yolauncher](yolauncher) to your ser
 
 
 ### Credits
-- Kurai Seraph
-- Warped Ibun
+- Kurai Seraph (for the method of making the mmo dts moveable in yo)
+- Warped Ibun (for the Witch dts)
 
 Made compatible with [Yo Launcher Servermodpack](https://yolauncher.app/documentation) and LiFx Client & Server framework by [LiF-x](https://www.lifxmod.com/)
 
