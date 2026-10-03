@@ -4,7 +4,10 @@
   "name": "LiFxWitch",
   "version": "0.0.1",
   "description": "Witches from MMO introduced to LiF:YO using grouse.",
-  "authors": ["Warped Ibun", "Kurai Sereph"],
+  "authors": [
+    "Warped Ibun",
+    "Kurai Sereph"
+  ],
   "source": {
     "repo": "LiF-x/LiFxWitch",
     "commit": "057a0fb558d441b27b0798c6a49150a1dd5910bc"
@@ -15,15 +18,33 @@
   },
   "license": "GPL-3.0-only",
   "distribution": "hostable",
-  "dependencies": ["LiF-x/ServerAutoloader", "LiF-x/ClientAutoloader"],
+  "dependencies": [
+    "LiF-x/ServerAutoloader",
+    "LiF-x/ClientAutoloader"
+  ],
   "loadOrderHint": 300,
   "loadOrderNote": "Content mod: registers new object types, so it loads after the framework and after plain behavioural mods.",
-  "objectTypeIds": [2007, 2008],
+  "objectTypeIds": {
+    "added": [
+      2007,
+      2008
+    ],
+    "modified": []
+  },
   "files": {
     "overlay": [
-      { "src": "mods/",                      "dest": "mods/" },
-      { "src": "yolauncher/modpack/art/",    "dest": "yolauncher/modpack/art/" },
-      { "src": "yolauncher/modpack/mods/",   "dest": "yolauncher/modpack/mods/" }
+      {
+        "src": "mods/",
+        "dest": "mods/"
+      },
+      {
+        "src": "yolauncher/modpack/art/",
+        "dest": "yolauncher/modpack/art/"
+      },
+      {
+        "src": "yolauncher/modpack/mods/",
+        "dest": "yolauncher/modpack/mods/"
+      }
     ],
     "dataPatches": []
   }
